@@ -1,0 +1,888 @@
+[25-Aug-2016 19:05:30 America/Sao_Paulo] PHP Warning:  include_once(dao/ValueTradeDAO.php): failed to open stream: No such file or directory in /home/semprenegociocom/public_html/teste/dao/AccessObject/ReleasesDAO.php on line 10
+[25-Aug-2016 19:05:30 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening 'dao/ValueTradeDAO.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/semprenegociocom/public_html/teste/dao/AccessObject/ReleasesDAO.php on line 10
+[25-Aug-2016 19:05:40 America/Sao_Paulo] PHP Warning:  include_once(dao/ValueTradeDAO.php): failed to open stream: No such file or directory in /home/semprenegociocom/public_html/teste/dao/AccessObject/ReleasesDAO.php on line 10
+[25-Aug-2016 19:05:40 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening 'dao/ValueTradeDAO.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/semprenegociocom/public_html/teste/dao/AccessObject/ReleasesDAO.php on line 10
+[25-Aug-2016 19:05:40 America/Sao_Paulo] PHP Warning:  include_once(dao/ValueTradeDAO.php): failed to open stream: No such file or directory in /home/semprenegociocom/public_html/teste/dao/AccessObject/ReleasesDAO.php on line 10
+[25-Aug-2016 19:05:40 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening 'dao/ValueTradeDAO.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/semprenegociocom/public_html/teste/dao/AccessObject/ReleasesDAO.php on line 10
+[25-Aug-2016 19:05:40 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/semprenegociocom/public_html/teste/config/AutenticadorConfig.php:106
+Stack trace:
+#0 /home/semprenegociocom/public_html/teste/config/AutenticadorConfig.php(106): PDO->__construct('mysql:dbname=Si...', 'root', '193945')
+#1 /home/semprenegociocom/public_html/teste/controller/DashboardController.php(202): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/semprenegociocom/public_html/teste/index.php(63): DashboardController->loginDash()
+#3 /home/semprenegociocom/public_html/teste/index.php(14): functionDispatcher()
+#4 {main}
+  thrown in /home/semprenegociocom/public_html/teste/config/AutenticadorConfig.php on line 106
+[25-Aug-2016 19:32:41 America/Sao_Paulo] PHP Warning:  include_once(dao/ValueTradeDAO.php): failed to open stream: No such file or directory in /home/semprenegociocom/public_html/teste/dao/AccessObject/ReleasesDAO.php on line 10
+[25-Aug-2016 19:32:41 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening 'dao/ValueTradeDAO.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/semprenegociocom/public_html/teste/dao/AccessObject/ReleasesDAO.php on line 10
+[25-Aug-2016 19:35:37 America/Sao_Paulo] PHP Warning:  include_once(dao/ValueTradeDAO.php): failed to open stream: No such file or directory in /home/semprenegociocom/public_html/teste/dao/AccessObject/ReleasesDAO.php on line 10
+[25-Aug-2016 19:35:37 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening 'dao/ValueTradeDAO.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/semprenegociocom/public_html/teste/dao/AccessObject/ReleasesDAO.php on line 10
+[25-Aug-2016 19:35:38 America/Sao_Paulo] PHP Warning:  include_once(dao/ValueTradeDAO.php): failed to open stream: No such file or directory in /home/semprenegociocom/public_html/teste/dao/AccessObject/ReleasesDAO.php on line 10
+[25-Aug-2016 19:35:38 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening 'dao/ValueTradeDAO.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/semprenegociocom/public_html/teste/dao/AccessObject/ReleasesDAO.php on line 10
+[25-Aug-2016 19:38:16 America/Sao_Paulo] PHP Warning:  include_once(dao/ValueTradePointsDAO.php): failed to open stream: No such file or directory in /home/semprenegociocom/public_html/teste/dao/AccessObject/ReleasesDAO.php on line 10
+[25-Aug-2016 19:38:16 America/Sao_Paulo] PHP Warning:  include_once(): Failed opening 'dao/ValueTradePointsDAO.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/semprenegociocom/public_html/teste/dao/AccessObject/ReleasesDAO.php on line 10
+[25-Aug-2016 19:39:08 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'semprene_adminis'@'localhost' to database 'dbname=semprene_cole'' in /home/semprenegociocom/public_html/teste/config/AutenticadorConfig.php:106
+Stack trace:
+#0 /home/semprenegociocom/public_html/teste/config/AutenticadorConfig.php(106): PDO->__construct('mysql:dbname=db...', 'semprene_admini...', '193945')
+#1 /home/semprenegociocom/public_html/teste/controller/DashboardController.php(202): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/semprenegociocom/public_html/teste/index.php(63): DashboardController->loginDash()
+#3 /home/semprenegociocom/public_html/teste/index.php(14): functionDispatcher()
+#4 {main}
+  thrown in /home/semprenegociocom/public_html/teste/config/AutenticadorConfig.php on line 106
+[25-Aug-2016 19:39:18 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'semprene_adminis'@'localhost' to database 'dbname=semprene_cole'' in /home/semprenegociocom/public_html/teste/config/AutenticadorConfig.php:106
+Stack trace:
+#0 /home/semprenegociocom/public_html/teste/config/AutenticadorConfig.php(106): PDO->__construct('mysql:dbname=db...', 'semprene_admini...', '193945')
+#1 /home/semprenegociocom/public_html/teste/controller/DashboardController.php(202): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/semprenegociocom/public_html/teste/index.php(63): DashboardController->loginDash()
+#3 /home/semprenegociocom/public_html/teste/index.php(14): functionDispatcher()
+#4 {main}
+  thrown in /home/semprenegociocom/public_html/teste/config/AutenticadorConfig.php on line 106
+[25-Aug-2016 19:39:21 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'semprene_adminis'@'localhost' to database 'dbname=semprene_cole'' in /home/semprenegociocom/public_html/teste/config/AutenticadorConfig.php:106
+Stack trace:
+#0 /home/semprenegociocom/public_html/teste/config/AutenticadorConfig.php(106): PDO->__construct('mysql:dbname=db...', 'semprene_admini...', '193945')
+#1 /home/semprenegociocom/public_html/teste/controller/DashboardController.php(202): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/semprenegociocom/public_html/teste/index.php(63): DashboardController->loginDash()
+#3 /home/semprenegociocom/public_html/teste/index.php(14): functionDispatcher()
+#4 {main}
+  thrown in /home/semprenegociocom/public_html/teste/config/AutenticadorConfig.php on line 106
+[25-Aug-2016 19:39:33 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1044] Access denied for user 'semprene_adminis'@'localhost' to database 'dbname=semprene_cole'' in /home/semprenegociocom/public_html/teste/config/AutenticadorConfig.php:106
+Stack trace:
+#0 /home/semprenegociocom/public_html/teste/config/AutenticadorConfig.php(106): PDO->__construct('mysql:dbname=db...', 'semprene_admini...', '193945')
+#1 /home/semprenegociocom/public_html/teste/controller/DashboardController.php(202): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/semprenegociocom/public_html/teste/index.php(63): DashboardController->loginDash()
+#3 /home/semprenegociocom/public_html/teste/index.php(14): functionDispatcher()
+#4 {main}
+  thrown in /home/semprenegociocom/public_html/teste/config/AutenticadorConfig.php on line 106
+[26-Aug-2016 18:24:32 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'ob_flush' (T_STRING), expecting function (T_FUNCTION) in /home/semprenegociocom/public_html/teste/dao/AccessObject/TradeDAO.php on line 140
+[26-Aug-2016 18:24:35 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'ob_flush' (T_STRING), expecting function (T_FUNCTION) in /home/semprenegociocom/public_html/teste/dao/AccessObject/TradeDAO.php on line 140
+[26-Aug-2016 18:36:00 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ')' in /home/semprenegociocom/public_html/teste/controller/DashboardController.php on line 127
+[26-Aug-2016 18:36:01 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ')' in /home/semprenegociocom/public_html/teste/controller/DashboardController.php on line 127
+[26-Aug-2016 20:04:07 America/Sao_Paulo] PHP Warning:  Illegal string offset 'trade_id' in /home/semprenegociocom/public_html/teste/controller/DashboardController.php on line 550
+[26-Aug-2016 20:04:07 America/Sao_Paulo] PHP Warning:  Illegal string offset 'trade_id' in /home/semprenegociocom/public_html/teste/controller/DashboardController.php on line 498
+[26-Aug-2016 20:06:52 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'ob_end_flush' (T_STRING), expecting function (T_FUNCTION) in /home/semprenegociocom/public_html/teste/controller/DashboardController.php on line 570
+[26-Aug-2016 20:06:53 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'ob_end_flush' (T_STRING), expecting function (T_FUNCTION) in /home/semprenegociocom/public_html/teste/controller/DashboardController.php on line 570
+[26-Aug-2016 20:08:50 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '$objTrade' (T_VARIABLE), expecting ',' or ';' in /home/semprenegociocom/public_html/teste/controller/DashboardController.php on line 129
+[26-Aug-2016 20:10:23 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'ob_end_flush' (T_STRING), expecting function (T_FUNCTION) in /home/semprenegociocom/public_html/teste/dao/AccessObject/TradeUsersDAO.php on line 107
+[26-Aug-2016 20:10:24 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'ob_end_flush' (T_STRING), expecting function (T_FUNCTION) in /home/semprenegociocom/public_html/teste/dao/AccessObject/TradeUsersDAO.php on line 107
+[26-Aug-2016 20:10:25 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'ob_end_flush' (T_STRING), expecting function (T_FUNCTION) in /home/semprenegociocom/public_html/teste/dao/AccessObject/TradeUsersDAO.php on line 107
+[26-Aug-2016 20:10:26 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'ob_end_flush' (T_STRING), expecting function (T_FUNCTION) in /home/semprenegociocom/public_html/teste/dao/AccessObject/TradeUsersDAO.php on line 107
+[26-Aug-2016 20:10:27 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'ob_end_flush' (T_STRING), expecting function (T_FUNCTION) in /home/semprenegociocom/public_html/teste/dao/AccessObject/TradeUsersDAO.php on line 107
+[26-Aug-2016 20:10:27 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'ob_end_flush' (T_STRING), expecting function (T_FUNCTION) in /home/semprenegociocom/public_html/teste/dao/AccessObject/TradeUsersDAO.php on line 107
+[26-Aug-2016 20:10:28 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'ob_end_flush' (T_STRING), expecting function (T_FUNCTION) in /home/semprenegociocom/public_html/teste/dao/AccessObject/TradeUsersDAO.php on line 107
+[26-Aug-2016 20:13:23 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'ob_end_flush' (T_STRING), expecting function (T_FUNCTION) in /home/semprenegociocom/public_html/teste/dao/AccessObject/TradeUsersDAO.php on line 107
+[26-Aug-2016 20:13:58 America/Sao_Paulo] PHP Warning:  Illegal string offset 'trade_id' in /home/semprenegociocom/public_html/teste/controller/ClientController.php on line 92
+[26-Aug-2016 20:14:17 America/Sao_Paulo] PHP Warning:  Illegal string offset 'trade_id' in /home/semprenegociocom/public_html/teste/controller/ClientController.php on line 92
+[26-Aug-2016 20:15:21 America/Sao_Paulo] PHP Warning:  Illegal string offset 'trade_id' in /home/semprenegociocom/public_html/teste/controller/DashboardController.php on line 551
+[26-Aug-2016 20:15:21 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/semprenegociocom/public_html/teste/controller/DashboardController.php:551) in /home/semprenegociocom/public_html/teste/dao/AccessObject/NotificationsDAO.php on line 48
+[26-Aug-2016 20:15:21 America/Sao_Paulo] PHP Warning:  Illegal string offset 'trade_id' in /home/semprenegociocom/public_html/teste/controller/DashboardController.php on line 499
+[26-Aug-2016 20:15:21 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/semprenegociocom/public_html/teste/controller/DashboardController.php:499) in /home/semprenegociocom/public_html/teste/dao/AccessObject/AwardsRescueDAO.php on line 109
+[26-Aug-2016 20:19:47 America/Sao_Paulo] PHP Fatal error:  Class 'DashboardController' not found in /home/semprenegociocom/public_html/teste/index.php on line 51
+[26-Aug-2016 20:19:51 America/Sao_Paulo] PHP Fatal error:  Class 'DashboardController' not found in /home/semprenegociocom/public_html/teste/index.php on line 51
+[26-Aug-2016 20:20:31 America/Sao_Paulo] PHP Fatal error:  Class 'DashboardController' not found in /home/semprenegociocom/public_html/teste/index.php on line 51
+[26-Aug-2016 21:01:34 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/semprenegociocom/public_html/teste/dao/AccessObject/TradeUsersDAO.php:87) in /home/semprenegociocom/public_html/teste/dao/AccessObject/AwardsRescueDAO.php on line 109
+[26-Aug-2016 21:40:31 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '\' (T_NS_SEPARATOR) in /home/semprenegociocom/public_html/teste/dao/AccessObject/TradeUsersDAO.php on line 102
+[26-Aug-2016 21:40:33 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '\' (T_NS_SEPARATOR) in /home/semprenegociocom/public_html/teste/dao/AccessObject/TradeUsersDAO.php on line 102
+[26-Aug-2016 21:40:52 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '\' (T_NS_SEPARATOR) in /home/semprenegociocom/public_html/teste/dao/AccessObject/TradeUsersDAO.php on line 102
+[28-Aug-2016 01:32:41 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ')' in /home/semprenegociocom/public_html/teste/controller/DashboardController.php on line 128
+[29-Aug-2016 01:46:31 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ''usuario'' (T_CONSTANT_ENCAPSED_STRING), expecting '&' or variable (T_VARIABLE) in /home/semprenegociocom/public_html/teste/config/SessaoConfig.php on line 33
+[29-Aug-2016 01:46:47 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ''usuario'' (T_CONSTANT_ENCAPSED_STRING), expecting '&' or variable (T_VARIABLE) in /home/semprenegociocom/public_html/teste/config/SessaoConfig.php on line 33
+[31-Aug-2016 12:37:22 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientDAO.php:123) in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientDAO.php on line 132
+[31-Aug-2016 12:45:06 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientDAO.php:123) in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientDAO.php on line 132
+[02-Sep-2016 16:10:14 America/Sao_Paulo] PHP Warning:  Division by zero in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientDAO.php on line 217
+[02-Sep-2016 16:18:16 America/Sao_Paulo] PHP Warning:  Division by zero in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientDAO.php on line 217
+[02-Sep-2016 16:37:45 America/Sao_Paulo] PHP Warning:  Division by zero in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientDAO.php on line 217
+[02-Sep-2016 16:37:56 America/Sao_Paulo] PHP Warning:  Division by zero in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientDAO.php on line 217
+[02-Sep-2016 16:39:44 America/Sao_Paulo] PHP Warning:  Division by zero in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientDAO.php on line 217
+[02-Sep-2016 16:40:45 America/Sao_Paulo] PHP Warning:  Division by zero in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientDAO.php on line 217
+[02-Sep-2016 16:53:25 America/Sao_Paulo] PHP Warning:  Division by zero in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientDAO.php on line 217
+[02-Sep-2016 17:12:18 America/Sao_Paulo] PHP Warning:  Division by zero in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientDAO.php on line 217
+[02-Sep-2016 20:28:18 America/Sao_Paulo] PHP Warning:  Division by zero in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientDAO.php on line 217
+[12-Sep-2016 20:29:49 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',', expecting function (T_FUNCTION) in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 10
+[12-Sep-2016 20:29:49 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',', expecting function (T_FUNCTION) in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 10
+[12-Sep-2016 20:29:50 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',', expecting function (T_FUNCTION) in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 10
+[12-Sep-2016 20:29:50 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',', expecting function (T_FUNCTION) in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 10
+[12-Sep-2016 20:29:50 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',', expecting function (T_FUNCTION) in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 10
+[12-Sep-2016 20:29:51 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',', expecting function (T_FUNCTION) in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 10
+[12-Sep-2016 20:30:29 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',', expecting function (T_FUNCTION) in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 10
+[12-Sep-2016 20:30:33 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',', expecting function (T_FUNCTION) in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 10
+[12-Sep-2016 20:30:36 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',', expecting function (T_FUNCTION) in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 10
+[12-Sep-2016 20:30:38 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',', expecting function (T_FUNCTION) in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 10
+[12-Sep-2016 20:30:43 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',', expecting function (T_FUNCTION) in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 10
+[12-Sep-2016 20:30:44 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',', expecting function (T_FUNCTION) in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 10
+[12-Sep-2016 22:27:20 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:27:20 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:27:21 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:27:21 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:27:22 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:27:23 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:27:35 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:27:36 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:27:37 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:27:39 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:27:43 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:27:45 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:28:12 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:28:17 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:28:32 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:28:32 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:29:40 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:29:40 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:29:40 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:29:40 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:29:41 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:29:41 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:30:12 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:30:12 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:30:12 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:30:16 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:30:51 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:30:52 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:30:54 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:30:54 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:30:54 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:30:55 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:31:10 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:31:12 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:31:14 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:31:15 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:31:18 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:31:20 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:31:59 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:32:00 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:32:01 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:32:02 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:32:06 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:32:32 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:32:53 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:32:53 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:32:54 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:32:54 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:32:55 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:32:55 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:32:56 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:32:56 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:32:56 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:32:56 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:33:36 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:33:37 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:33:38 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:33:39 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:33:39 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:33:39 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:33:54 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:33:56 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:34:02 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:34:03 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:34:05 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:34:07 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:34:50 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:34:51 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:34:55 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:34:56 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:35:00 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:35:03 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:35:32 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:35:35 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:35:42 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:35:46 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:35:54 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:36:01 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:36:07 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:36:09 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:43:51 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:43:53 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:43:56 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:44:00 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:44:05 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:44:06 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:44:39 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:44:41 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:44:52 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:44:52 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:44:53 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:47:08 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:47:08 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:47:11 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:47:13 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:47:14 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:47:15 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:47:53 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:47:54 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:47:55 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:47:56 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:48:04 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:49:51 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:49:53 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:49:57 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:49:59 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:50:03 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:50:06 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:52:10 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:52:12 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:52:18 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:52:22 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:52:29 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 22:52:32 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 23:01:17 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 23:01:18 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 23:01:18 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 23:01:19 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 23:01:20 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 23:01:20 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 23:01:42 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 23:01:42 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 23:01:43 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 23:01:43 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 23:01:43 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 23:01:43 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 23:01:51 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 23:01:51 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 23:01:52 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 23:01:53 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 23:01:53 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 23:01:53 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 23:05:25 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 23:05:25 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 23:05:25 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 23:05:26 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 23:05:26 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[12-Sep-2016 23:05:27 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ',' in /home/semprenegociocom/public_html/teste/dao/AccessObject/ClientAppDAO.php on line 56
+[27-Feb-2017 00:59:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 00:59:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:01:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('Laender', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:01:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('Laender', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:01:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('Laender', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:01:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('Laender', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:01:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:01:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:01:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:01:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:01:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:01:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:01:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:01:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('laenderquadros@...', 'd155c2f519e9e32...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:02:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:02:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:02:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:02:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:02:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:02:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:02:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:02:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:02:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:02:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:02:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:02:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:02:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:02:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:02:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:02:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:08:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:08:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:08:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:08:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107
+[27-Feb-2017 01:08:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'semprene_adminis'@'localhost' (using password: YES)' in /home/coleaquicom/public_html/config/AutenticadorConfig.php:107
+Stack trace:
+#0 /home/coleaquicom/public_html/config/AutenticadorConfig.php(107): PDO->__construct('mysql:dbname=se...', 'semprene_admini...', '193945')
+#1 /home/coleaquicom/public_html/controller/DashboardController.php(220): AutenticadorEmBanco->login('', 'd41d8cd98f00b20...')
+#2 /home/coleaquicom/public_html/index.php(64): DashboardController->loginDash()
+#3 /home/coleaquicom/public_html/index.php(15): functionDispatcher()
+#4 {main}
+  thrown in /home/coleaquicom/public_html/config/AutenticadorConfig.php on line 107

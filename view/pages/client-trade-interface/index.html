@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="language" content="pt-br">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="target-densitydpi=device-dpi; width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="SempreNegócio sistemas para web">
+    <meta name="description" content="Simples Conect, sistema para fidelidade de clientes.">
+    <meta name="keywords" content="Fidelidade de clientes">
+    
+    <link rel="icon" href="view/assets/assets-trade-interface/img/img.jpg">
+    
+    <title>Simples Conect</title>
+
+    <!-- build:css css/index.min.css -->
+        <link rel="stylesheet" href="view/assets/assets-trade-interface/css/reset.css" type="text/css">
+        <link rel="stylesheet" href="view/assets/assets-trade-interface/css/estilo.css" type="text/css">
+        <link rel="stylesheet" href="view/assets/assets-trade-interface/css/breackEstilo.css" type="text/css">
+    <!-- endbuild -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+    <body id="page-top">
+        <section class="secIniti">
+             <h2 class="sumir">Cadastrar e receber prêmios</h2>
+            <div class="init">
+                <div class="inicial">
+                    <figure class="img01">
+                        <img id='tradeProfile' src="" alt="imagem empresa">
+                    </figure>
+                    <div>
+                        <p>Toque nesta tela</p>
+                        <p id="nameTrade"></p>
+                    </div>
+               </div>
+                <div class="rod">
+                    <figure>
+                        <img src="view/assets/assets-trade-interface/img/logo.png" alt="Logo Simples Conect">
+                    </figure>
+                </div>
+            </div>
+           <div class='controla'>
+            <div class="digite">
+             <form>
+                <fieldset class="primeiroFiel">
+                    <legend>Confirme seus pontos e resgate prêmios!..</legend>
+                    <div class="fec">
+                        <label>
+                            <input type="number" name="cpf" id="cpf" autocomplete="off" placeholder="Digite seu CPF :)"  required >
+                        </label>
+                        <label for='cadastre'>
+                            <input type="button" value="ver pontos"  id="cadastre">
+                        </label>
+                        <input type="text" id="tempo">
+                         <p class="soN">Digite seu CPF :)</p>
+                    </div>
+                </fieldset>
+             </form>
+            </div>
+          </div>
+         <div class="paiBemVindo">
+             <div class="bemVindo">
+                 <p id="name-cli" class='verTexto'> </p>
+                 <!-- <p class='verTexto'>Cadastre seu CPF e ganhe prêmios :)</p> -->
+                 <p>Seja bem vindo de volta</p>
+              </div>
+         </div>
+          <div class="painel">
+            <div class="controla">
+                <div>
+                    <img id="img-trade" src="">
+                    <div>
+                        <div class="pontos">
+                            <p id="pts-client" class="pt">
+                                100
+                            </p>
+                            <p>
+                                Seus Pontos
+                            </p>
+                        </div>
+                        <p class="nomeEmpresa">BarberShow</p>
+                        <button id="finali" type="button" class="final">Finalizar</button>
+                    </div>
+
+                </div>
+                <div id="pre-generetor" class="premios">
+
+                </div>
+            </div>
+          </div>
+
+          <div class="maisPontos">
+            <p class='parabens'>Parabéns!</p>
+            <div class="bloco">
+                <p>Você conquistou</p>
+                <p class="mais"><span id="more-points">+0</span>pontos</p>
+            </div>
+          </div>
+        </section>
+        <!-- jQuery -->
+
+        <script src="view/assets/assets-trade-interface/js/jquery.js"></script>
+        <script src='view/assets/assets-trade-interface/js/jquery.mask.min.js'></script>
+        <script src='view/assets/assets-trade-interface/js/trade-client-request.js'></script>
+        <script src='view/assets/assets-trade-interface/js/tradeInfo.js'></script>
+        <script src='view/assets/assets-trade-interface/js/dataCli.js'></script>
+
+
+
+       <script type="text/javascript">
+           $(window).load(function(){
+                var c = 0;
+                var t;
+                var timer_is_on = 0;
+
+                    function timedCount() {
+                    document.getElementById("tempo").value = c;
+                    c = c + 1;
+                    t = setTimeout(function(){
+                        timedCount() }, 1000);
+
+                    if (c == 30) {
+                        $('.inicial').removeClass('left');
+                         $('.digite').removeClass('left0');
+                         // $('.fec').css({
+                         //    display:'none'
+                         // });
+                         location.reload();
+                        // c = c * 0;
+
+                    // function stopCount() {
+                    //     clearTimeout(t);
+                    //     timer_is_on = 0;
+                    // };
+                        //alert('10');
+                  };
+            };
+
+                function startCount() {
+                    if (!timer_is_on) {
+                        timer_is_on = 1;
+                        timedCount();
+                    }
+                }
+
+                function stopCount() {
+                    //clearTimeout(t);
+                    //timer_is_on = 0;
+                    c = c * 0;
+                }
+
+
+                $('.inicial').mousedown(function(){
+                    $(this).addClass('left');
+                    $('.digite').addClass('left0');
+                    // $('.fec').show();
+                    startCount();
+                });
+                 $('#cpf').keypress(function(){
+                        $(this).attr('type', 'text');
+                        stopCount();     //alert('tempo');
+                 });
+
+
+                 $('#cadastre').click(function(){
+                    $(this).css({
+                        background:'url(view/assets/assets-trade-interface/img/load.gif) no-repeat',
+                        backgroundPosition: '50% ',
+                        backgroundSize:'3em'
+                    });
+
+                  setTimeout(function(){
+                      bemVindo() }, 1000);
+                    });
+
+                function bemVindo() {
+                    $('div.digite').addClass('top');
+                    $('div.paiBemVindo').addClass('top0');
+
+                    clearTimeout(t);
+                    timer_is_on = 0;
+
+                    var ver =  $('.verTexto').text();
+
+                     if (ver == 'Cadastre seu CPF e ganhe prêmios :)') {
+                        $('.verTexto').next('p').css({
+                            display:'none'
+                         });
+                    setTimeout(function(){   location.reload(); }, 4000);
+                    }else{
+                        setTimeout(function(){  $('div.bemVindo').css({
+                               top:'50em'
+                         });
+                        $('div.painel').css({
+                               top:'-2em'
+                         });
+
+                        $('div.init').css({
+                            display:'none'
+                        });
+                    }, 3000);
+                };
+            };
+
+            // button finalizar
+    $('button.final').click(function(){
+          $('div.painel').css({
+             top:'-50em'
+        });
+          $('div.maisPontos').fadeIn().css({
+            background:'url(view/assets/assets-trade-interface/img/backNoite.jpg) no-repeat',
+            backgroundPosition:'50%'
+          });
+
+          $('div.bloco').css({
+            top:'8em'
+          });
+          $('p.parabens').css({
+            top:'4.1em'
+          });
+          setTimeout(function(){   location.reload(); }, 4000);
+    });
+
+    // barra porcentagem
+  $('#cadastre').click(function(){
+    $('div.premios').find('span').map(function(){
+        var a = $('p.pt').text();
+        var b = 100;
+        var c = $(this).text();
+
+        var resultado = (a*b)/c;
+        //alert(resultado);
+
+        if(resultado < '3'){
+        $(this).closest('p').css({
+            boxShadow: 'inset 0 0 0 rgba(189, 195, 199,1)'
+            });
+        };
+        if( (resultado > '3') && (resultado < '12') ){
+            //alert(resultado);
+        $(this).closest('p').css({
+            boxShadow: 'inset 25px 0 0 rgba(46, 204, 113,.3)'
+            });
+        };
+        if( (resultado > '12') && (resultado < '20') ){
+            //alert(resultado);
+        $(this).closest('p').css({
+            boxShadow: 'inset 60px 0 0 rgba(46, 204, 113,.3)'
+            });
+        };
+         if( (resultado > '20') && (resultado < '30') ){
+            //alert(resultado );
+        $(this).closest('p').css({
+            boxShadow: 'inset 130px 0 0 rgba(46, 204, 113,.3)',
+            color:'#fff'
+            });
+        };
+        if( (resultado > '30') && (resultado < '44') ){
+            //alert(resultado );
+        $(this).closest('p').css({
+            boxShadow: 'inset 280px 0 0 rgba(46, 204, 113,.3)',
+            color:'#fff'
+            });
+        };
+
+        if( (resultado > '44') && (resultado < '55') ){
+            //alert(resultado );
+        $(this).closest('p').css({
+            boxShadow: 'inset 450px 0 0 rgba(46, 204, 113,.3)',
+            color:'#fff'
+            });
+        };
+        if( (resultado > '55') && (resultado < '60') ){
+            //alert(resultado );
+        $(this).closest('p').css({
+            boxShadow: 'inset 500px 0 0 rgba(46, 204, 113,.3)',
+            color:'#fff'
+            });
+        };
+        if( (resultado > '55') && (resultado < '65') ){
+            //alert(resultado);
+        $(this).closest('p').css({
+            boxShadow: 'inset 570px 0 0 rgba(46, 204, 113,.3)',
+            color:'#fff'
+            });
+        };
+        if( (resultado > '65') && (resultado < '70') ){
+            //alert(resultado);
+        $(this).closest('p').css({
+            boxShadow: 'inset 640px 0 0 rgba(46, 204, 113,.3)',
+            color:'#fff'
+            });
+        };
+        if( (resultado > '70') && (resultado < '80') ){
+            //alert(resultado);
+        $(this).closest('p').css({
+            boxShadow: 'inset 695px 0 0 rgba(46, 204, 113,.3)',
+            color:'#fff'
+            });
+        };
+        if( (resultado > '80') && (resultado < '85') ){
+            //alert(resultado);
+        $(this).closest('p').css({
+            boxShadow: 'inset 735px 0 0 rgba(46, 204, 113,.3)',
+            color:'#fff'
+            });
+        };
+        if( (resultado > '85') && (resultado < '90') ){
+            //alert(resultado);
+        $(this).closest('p').css({
+            boxShadow: 'inset 768px 0 0 rgba(46, 204, 113,.3)',
+            color:'#fff'
+            });
+        };
+        if( (resultado > '90') && (resultado < '95') ){
+            //alert(resultado);
+        $(this).closest('p').css({
+            boxShadow: 'inset 789px 0 0 rgba(46, 204, 113,.3)',
+            color:'#fff'
+            });
+        $(this).css({
+            color:'#fff'
+        });
+       };
+
+        if( (resultado > '95') && (resultado < '99.999') ){
+            //alert(resultado);
+        $(this).closest('p').css({
+            boxShadow: 'inset 809px 0 0 rgba(46, 204, 113,.3)',
+            color:'#fff'
+            });
+        $(this).css({
+            color:'#fff'
+        });
+         $(this).closest('p').find('i').css({
+            background:'url(view/assets/assets-trade-interface/img/daimond01.png) no-repeat',
+            backgroundSize:'2em',
+            backgroundPosition:'99% 50%'
+        });
+    };
+        if( (resultado > '100') || (resultado == '100') ){
+            //alert(resultado);
+        $(this).closest('p').css({
+            boxShadow: 'inset 855px 0 0 rgba(46, 204, 113,1.0)',
+            color:'#fff'
+        });
+        $(this).css({
+            color:'#fff'
+        });
+        $(this).closest('p').find('i').css({
+            background:'url(view/assets/assets-trade-interface/img/daimond01.png) no-repeat',
+            backgroundSize:'2em',
+            backgroundPosition:'99% 50%'
+        });
+       };
+    }).get().join(', ');
+   });
+  });  
+</script>
+  <script>
+     $('#cpf').click(function(){
+        // alert('dd');
+          $(this).attr('type', 'number');
+          $('.rod').hide();
+    });
+    $('#cpf').focusout(function(){
+          $('.rod').show();
+        // alert('dd');
+          //$(this).attr('type', 'number');
+    });
+     $('#cpf').mask('999.999.999-99');
+
+    $('form').submit(function(){
+        
+        var cpf   =  $('#cpf').val();
+
+        tel = tel.replace("-", "");
+
+        //alert(tel);
+        
+        var er = /[a-z]\s[a-z]/gim;
+
+        if(er.test(nome)){
+          $("#nomePg").html("Nome válido.");
+        } else{
+    
+        $("#nomePg").html("* Favor, informe o nome completo.");
+        return false;
+
+        }
+
+        if(!emailValidate(email)){
+        $("#emailPg").html("* Email inválido.");
+        return false;
+        } else {
+        $("#emailPg").html("Email válido");
+        }
+
+          var nan = new RegExp(/(^-?\d\d*\d*$)|(^-?\d\d*$)|(^-?\d\d*$)/);
+
+        if(cpf == "" || cpf.length < 14 || cpf.length > 14 ){
+
+            $("#cpfId").html("* O CPF deve ser preenchido corretamente");
+            return false;
+        }else if(!validaCPF(cpf)){
+
+            $("#cpfId").html("* Este NÃO é um cpf válido");
+                        return false;
+
+        } else {
+            $("#cpfId").html("* CPF Válido");  
+                
+        }
+    });
+  </script>
+</body>
+</html>
+<!--  $('.digite').animate({
+                        left:'100em',
+                      },100),$('.digite').fadeOut();
+                }$('.inicial').removeClas,9000); -->

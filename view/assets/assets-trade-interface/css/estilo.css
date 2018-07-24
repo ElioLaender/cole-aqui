@@ -1,0 +1,358 @@
+.sumir{
+	opacity:0;
+	text-indent:-150em;
+}
+body{
+	//overflow-x:hidden;
+}
+html,body,section,div.init{
+	height:100%;
+}
+section.secIniti{
+	background:#3498db;
+	background:url('../img/nuvem.jpg') no-repeat;
+	background-size:cover;
+	background-position:50%;
+}
+div.init{
+	position:absolute;
+	top:0;
+	width:100%;
+}
+div.init > div:first-of-type{
+	position:relative;
+	top:3em;
+	width:42em;
+	background:url('../img/arrowRight.png') no-repeat;
+	background-position:100% 100%;
+	background-size:4em;
+	margin:0 auto;
+}
+div.init figure{
+	position:relative;
+	width:90%;max-width:8em;
+	margin:0 auto 1em;
+}
+div.init figure.img01 img{
+	border-radius:50%;
+	height:8em;
+	width:100%;
+}
+div.init figure img{
+	width:100%;
+}
+div.init p{
+	top:.2em;
+	position:relative;
+	font-size:1.7em;
+	color:#444;
+}
+div.init p:first-of-type{
+	top:0;
+	text-transform: uppercase;
+	font-weight:600;
+	font-size:3.5em;
+	color:#fff;
+}
+div.inicial{
+	position:relative;
+	left:0;
+}
+div.left{
+	position:relative;
+	left:-100em;
+	-moz-transition:left 1.5s ease;
+	-webkit-transition:left 1.5s ease;
+	transition:left 1.5s ease;
+}
+div.rod{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:8em;
+	background:#FAFAFA;
+}
+div.rod figure{
+	top:2.5em;
+	max-width:15em;
+}
+div.controla{
+	height:24em;
+	overflow:hidden;
+}
+div.digite{
+	position:relative;
+	top:6em;
+	left:100em;
+	width:90%;max-width:50em;
+	margin:0 auto;
+}
+div.top{
+	position:relative;
+	top:30em;
+}
+div.left0{
+	position:relative;
+	left:0;
+	-moz-transition: .9s ease;
+	-webkit-transition: .9s ease;
+	transition: .9s ease;
+}
+div.digite form fieldset.primeiroFiel legend{
+	text-align:center;
+	color:#444;
+	font-weight:800;
+	font-size:1.4em;
+	text-transform:uppercase;
+}
+div.digite form fieldset.primeiroFiel div{
+	position:relative;
+	top:2em;
+	max-width:40em;
+	margin:0 auto 0;
+}
+div.digite form fieldset.primeiroFiel div > label:first-of-type{
+	position:relative;
+	left:0;
+	width:90%;
+	margin:0;
+	overflow:hidden;
+	display:inline-block;
+}
+
+div.digite form fieldset.primeiroFiel div > label:last-of-type{
+	position:absolute;
+	right:2em;
+	width:15%;
+	display:inline-block;
+	margin-left:2em;
+
+}
+div.digite form fieldset.primeiroFiel div label input{
+	display:inline-block;
+	width:100%;
+	padding:1.5em;
+	border:none;
+	margin:0;
+}
+div.digite form fieldset.primeiroFiel div label input#cadastre{
+	position:relative;
+	text-align:center;
+	text-indent:-99em;
+	background:url('../img/but.png') no-repeat;
+	background-position:50%;
+	background-size:3em;
+	outline:none;
+	z-index:1;
+}
+div.digite form fieldset.primeiroFiel div label[for="cadastre"]{
+	content:'';
+	position:absolute;
+	width:6em;
+	height:4.3em;
+	right:1em;
+	background:#f1c40f;
+}
+div.digite form fieldset.primeiroFiel div p{
+	position:relative;
+	top:.3em;
+	font-size:1.5em;
+	color:#fff;
+	font-weight:600;
+	text-align:left;
+	
+}
+div.paiBemVindo{
+	position:absolute;
+	top:-70em;
+	width:100%;
+	height:26em;
+	overflow:hidden;
+}
+div.bemVindo{
+	position:relative;
+	top:10em;
+	width:100%;
+	height:15em;
+	-moz-transition: .9s ease;
+	-webkit-transition: .9s ease;
+	transition: .9s ease;
+}
+div.top0{
+	top:0;
+	-moz-transition: .9s ease;
+	-webkit-transition: .9s ease;
+	transition: .9s ease;
+}
+div.bemVindo p{
+	color:#fff;
+	font-size:3em;
+	font-weight:600;
+}
+div.bemVindo > p:last-child{
+	color:#777;
+	font-size:1.5em;
+	margin-top:.5em;
+}
+div.painel{
+	position:absolute;
+	top:-50em;
+	width:100%;
+	height:100%;
+	margin:0 auto;
+	-moz-transition: .9s ease;
+	-webkit-transition: .9s ease;
+	transition: .9s ease;
+}
+div.painel div.controla{
+	position:relative;
+	top:5em;
+	padding:1.5em;
+	background:#fff;
+	box-shadow:6px 8px 10px rgba(0,0,0,.5);
+	width:90%;
+	height:28em;
+	border-radius:6px;
+
+	margin:0 auto;
+}
+div.painel div.controla > div:first-of-type{
+	position:relative;
+	top:0;
+	overflow:hidden;
+	padding-bottom:1em;
+	border-bottom:solid #bdc3c7 2px;
+}
+div.painel div.controla > div:first-of-type img{
+	float:left;
+	width:6em;
+	height:5.5em;
+	border-radius:6px;
+}
+div.painel div.controla > div:first-of-type div.pontos{
+	float:left;
+	padding:1.3em 2em;
+	border-radius:6px;
+	margin-left:1em;
+	background:rgba(231, 76, 60, .8);
+}
+div.painel div.controla > div:first-of-type div.pontos p{
+	color:#fff;
+	font-weight:600;
+	font-size:1.5em;
+}
+div.painel div.controla p.nomeEmpresa{
+	float:left;
+	color:#777;
+	margin-left:1em;
+	font-size:1.7em;
+	font-weight:600;
+	text-align:center;
+}
+div.painel div.controla > div:first-of-type button{
+	float:right;
+	padding:1.2em 1em;
+	font-size:1.5em;
+	font-weight:600;
+	border-radius:6px;
+	color:#fff;
+	background:rgba(41, 128, 185,.9);
+}
+div.painel div.premios{
+	position:relative;
+	top:2em;
+	height:16.5em;
+	overflow-x:auto;
+
+	margin-bottom:5em;
+
+}
+div.painel div.premios p{
+	position:relative;
+	width:95%;
+	text-align:left;
+	margin:0 auto;
+	color:#999;
+	font-weight:600;
+	padding:.9em 1.5em;
+	font-size:1.3em;
+	margin-bottom:1em;
+	border-radius:6px;
+	background:rgba(236, 240, 241,.8);
+	box-shadow: inset 0 0 0 rgba(189, 195, 199,.7);
+}
+div.painel div.premios i{
+	content:'';
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+
+	background:url('../img/daimond.png') no-repeat;
+	background-size:2em;
+	background-position:99% 50%;
+}
+div.painel div.premios p span{
+	float:right;
+	margin-right:2em;
+	color:#999;
+}
+p.parabens{
+	position:relative;
+	top:-41em;
+	width:15em;
+	padding:.4em .2em;
+	margin:0 auto;
+	font-size:2em;
+	background:#2ecc71;
+	color:#fff;
+	font-weight:600;
+	border-radius:6px;
+	-moz-transition: .9s ease;
+	-webkit-transition: .9s ease;
+	transition: .9s ease;
+}
+div.maisPontos{
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	display:none;
+}
+div.maisPontos > div{
+	position:relative;
+	top:50em;
+	width:35em;
+	margin:0 auto;
+	background:#fff;
+	border-radius:6px;
+	padding:4em 1em;
+
+	-moz-transition: .9s ease;
+	-webkit-transition: .9s ease;
+	transition: .9s ease;
+
+	box-shadow:6px 8px 10px rgba(0,0,0,.5);
+
+}
+div.maisPontos > div p{
+	font-size:2em;
+	font-weight:500;
+	color:#888;
+}
+div.maisPontos > div p.mais{
+	font-weight:600;
+	margin-top:.9em;
+}
+div.maisPontos > div p.mais span{
+	margin-right:.3em;
+	padding:.3em .8em;
+	background:rgba(231, 76, 60,1.0);
+	color:#fff;
+	border-radius:6px;
+}
+#tempo{
+	display:none;
+}

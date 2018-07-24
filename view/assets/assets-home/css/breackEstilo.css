@@ -1,0 +1,278 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 450px){
+
+	header > div h3{
+		font-size:2em !important;
+		
+	}
+	header > div p {
+		font-size:1.5em;
+	}
+
+	/*form*/
+	section#contact h2{
+		font-size:2.4em;
+	}
+	section#contact p{
+		font-size:1.5em;
+	}
+
+}
+@media screen and (min-width: 550px){
+	/*form*/
+	section#contact h2{
+		top:-1em;
+		margin-bottom:1em;
+		font-size:2.6em;
+	}
+
+}
+@media screen and (min-width: 600px){
+
+	header {
+	    background-image: url('../img/header.jpg');
+	}
+	header:before{
+		z-index: -1;
+	}
+	section#empresa{
+		padding:2em;
+	}
+	section#empresa div p.title{
+		font-size:2em;
+	}
+	section#empresa div h2{
+		font-size:3em;
+	}
+}
+@media screen and (min-width: 710px){
+
+	header p{
+		font-size:2em !important;
+	}
+	header div h3{
+		top:1em;
+		font-size:3em !important;
+	}
+	section#pacotes{
+		margin:0 auto;
+		overflow: hidden;
+		padding-left:2em;
+	}
+	section#pacotes div.controle{
+		overflow: hidden;
+		width:60em;
+		margin:2em auto;
+	}
+	section#pacotes div.fone{
+		float:right;
+		width:45%;
+		margin-top:2em;
+
+	}
+	section#pacotes div.texto{
+		float:left;
+		width:45%;
+	}
+	/*form*/
+	section#contact{
+		padding-bottom:6em;
+	}
+	section#contact h2{
+		top:-.5em;
+		font-size:3em;
+	}
+	section#contact p{
+		position:relative;
+		top:-2.5em;
+		width:90%;
+		margin:0 auto;
+		text-align:center;
+	}
+	section#contact form fieldset{
+		width:90%;max-width:50em;
+		padding-left:.5em;
+	}
+	section#contact form fieldset label{
+		width:47%;
+		display:inline-block;
+
+		margin:1em .5em;
+	}
+	section#contact form fieldset label[for="texto"]{
+		width:96.5%;
+	}
+	section#contact form fieldset input[type='submit']{
+		font-size:1.5em;
+		max-width:10em;
+	}
+
+	section#alerta h2{
+		max-width:20em;
+		margin:0 auto 2em;
+		display:block;
+		font-size:2.5em;
+	}
+	section#alerta p{
+		font-size:1.6em;
+	}
+}
+@media screen and (min-width: 800px){
+	header{
+	    margin-top:0;
+		
+	}
+	header div{
+		position:relative;
+		top:10em;
+		left:10%;
+		width:45em;
+	}
+}
+@media screen and (min-width: 900px){
+	
+	/*form*/
+	section#contact{
+		padding-bottom:3.5em;
+	}
+
+
+}
+@media screen and (min-width: 1000px){
+
+	header {
+		-moz-background-attachment:fixed;
+		-webkit-background-attachment:fixed;
+		background-attachment:fixed;
+	}
+
+	section#empresa div p.title{
+		font-size:2em;
+	}
+	section#empresa div h2{
+		font-size:3em;
+	}
+	/*faixa*/
+	.bg-dark {
+	    background:url('../img/portfolio@2.jpg')no-repeat;
+	    background-size:cover;
+	    background-position:50% 100%;
+	}
+	section#carros{
+		padding:7em 0;
+		background-position:50%;
+	}
+	section#carros h2{
+		font-size:2.8em;
+	}
+	section#carros h2 + p{
+		margin-top:.5em;
+		font-size:1.8em;
+	}
+	section#carros p{
+		margin-top:2em;
+		font-size:1.4em;
+		max-width:35em;
+		
+	}
+
+}
+
+@media screen and (min-width: 1200px){
+
+	section#services{
+		overflow:hidden;
+	}
+	section#services h2{
+		font-size:3em;
+	}
+	section#pacotes{
+		max-width:100%;
+		height:45em;
+		padding-left:5em;
+	}
+	section#pacotes h2{
+		font-size:3em;
+	}
+	section#carros{
+		background-attachment: fixed;
+	}
+	section#alerta{
+		padding: 0;
+	}
+	section#alerta div.controlar{
+		max-width:69em;
+		margin:0 auto;
+		overflow:hidden;
+	}
+	section#alerta div.controlar > div{
+		width:50%;
+		margin-top:6em;
+		float:right;
+	}
+	section#alerta div.controlar p{
+		width:100%;
+		max-width:45em;
+	}
+	section#alerta div.controlar figure{
+		float:left;
+	}
+	/*footer*/
+	section#contact{
+		overflow:hidden;
+	}
+	
+}
+
+@media screen and (min-width: 1298px){
+
+	.bg-dark {
+	    background:url('../img/portfolio.jpg')no-repeat;
+	    background-size:cover;
+	    background-position:50% 100%;
+	    background-attachment:fixed;
+	}
+
+}
+@media screen and (min-width: 1300px){
+	header div{
+		top:15em;
+	}
+	section#services div.container01{
+	    width:90%;max-width:95em;
+		margin:0 auto;
+		overflow:hidden;
+	}
+	section#services div.container01 div{
+		float:left;
+
+		width:30%;max-width:100%;
+		margin-left:2em;
+	}
+	section#pacotes div.controle{
+			width:80em;
+		    height:35em;
+			position:relative;
+		}
+	section#pacotes div.fone{
+		position:absolute;
+		top:-3em;
+		right:0;
+		width:50%;max-width:100%;
+		height:35em;
+		margin-top:2em;
+	}
+	section#pacotes div.texto{
+		margin:4em 0 0 4em;
+		color:#777;
+		font-weight:600;
+	}
+}
+@media screen and (min-width: 1500px){
+	header div{
+		top:24em;
+	}
+
+}
+
